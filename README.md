@@ -17,13 +17,11 @@ The arduino basically talks to python,
 it sends the voltage coming from the potentiometer (because it's basically a resistor which resistance can be changed)
 The python program interprets that voltage as how much to change the set freq by, by applying the following formula:
 
-```math
+```txt
 let
 
 F = new freq
-
 f = old freq
-
 v = voltage
 
 F = f + v * 20
