@@ -19,8 +19,11 @@ The python program interprets that voltage as how much to change the set freq by
 
 ```math
 let
+
 F = new freq
+
 f = old freq
+
 v = voltage
 
 F = f + v * 20
