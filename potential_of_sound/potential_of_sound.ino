@@ -18,4 +18,5 @@ void loop() {
     Serial.println(String("A2: ") + volts);
     Serial.println(String("2: ") + buttonPushed1);
     Serial.println(String("3: ") + buttonPushed2);
+    delay(500);
 }
